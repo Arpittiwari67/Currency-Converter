@@ -6,7 +6,7 @@
 - CSS3 🌠
 - Javascript 🌟
 ---
-### 🔗🔗Link: https://rededge967.github.io/currency-converter
+### 🔗🔗Link: https://github.com/Arpittiwari67/Currency-Converter
 ---
 ### Landing page
 ![Capture49](https://user-images.githubusercontent.com/91379432/146636625-f4cee0c7-685f-4b4e-a7fa-3f936ec85429.PNG)
