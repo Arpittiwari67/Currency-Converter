@@ -1,0 +1,86 @@
+body {
+    background-color: #321940; /* Changed background color */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif; /* Added a default font family */
+}
+
+.heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 35px auto 20px;
+    font-size: 40px; /* Increased font size for better readability */
+    text-align: center; /* Center align heading */
+    color: white;
+    font-family: 'Lobster', cursive;
+
+}
+
+hr {
+    border-top: 2px solid black;
+    width: 60%; /* Increased width for better proportion */
+    margin: 0 auto 40px; /* Adjusted margin for better spacing */
+}
+
+.main {
+    width: 80%; /* Adjusted width for better responsiveness */
+    max-width: 600px; /* Added max-width for better control */
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px; /* Increased border radius for smoother edges */
+    background-color: rgba(0, 0, 0, 0.7); /* Adjusted background color for better contrast */
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Added box shadow for depth */
+}
+
+label {
+    font-size: 18px; /* Slightly reduced font size */
+}
+
+.btn {
+    width: 100%; /* Made button width fluid */
+    max-width: 200px; /* Added max-width for better control */
+    margin: 0.5rem auto; /* Adjusted margin for better spacing */
+    display: inline-block; /* Made button a block element */
+}
+
+#finalAmount {
+    font-family: 'Lobster', cursive;
+    margin: 50px auto;
+    text-align: center; /* Center align final amount */
+}
+
+#finalAmount h2 {
+    font-size: 35px; /* Adjusted font size for better proportion */
+    color: white;
+}
+
+.finalValue {
+    font-family: 'Amiri', serif;
+}
+
+@media (max-width: 768px) {
+    hr {
+        width: 75%; /* Adjusted width for smaller screens */
+    }
+
+    .main {
+        width: 90%; /* Adjusted width for smaller screens */
+    }
+}
+
+@media (max-width: 400px) {
+    .heading {
+        font-size: 30px; /* Further reduced font size for smaller screens */
+    }
+
+    hr {
+        width: 85%; /* Adjusted width for smallest screens */
+    }
+
+    #finalAmount h2,
+    .finalValue {
+        font-size: 24px; /* Adjusted font size for smallest screens */
+    }
+}
